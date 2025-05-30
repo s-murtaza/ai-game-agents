@@ -1,12 +1,66 @@
-# React + Vite
+Instructions
+    1. Clone: 
+    git clone https://github.com/s-murtaza/ai-game-agents.git
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    2. Dependancies: 
+    npm install
 
-Currently, two official plugins are available:
+    3. Run: 
+    npm run dev 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎮 Gaming Zone Overview
+A fun React-based game hub with two intelligent games:
 
-## Expanding the ESLint configuration
+🧩 Puzzle Agent – Uses A* (A-Star) search to solve sliding puzzles.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+❌ Tic-Tac-Toe – Uses the Minimax algorithm for unbeatable AI.
+
+🧠 Technologies Used
+React for UI
+
+React Router for navigation
+
+Custom hooks & context for state management
+
+Web Workers for solving puzzles asynchronously
+
+A* Algorithm with heuristics like Manhattan, Hamming, etc.
+
+Minimax Algorithm with pruning for Tic-Tac-Toe AI
+
+CSS Animations and Arcade-style UI
+
+🧩 Puzzle Agent – A* Solver Highlights
+Solves NxN sliding puzzles.
+
+Uses A* with multiple heuristic options:
+
+Manhattan Distance
+
+Hamming Distance
+
+Linear Conflict
+
+Euclidean
+
+Gaschnig
+
+Diagonal
+
+Animation shows the step-by-step solution path.
+
+Dynamic difficulty levels (3x3, 4x4, 5x5).
+
+Stats tracked: 🕒 Time, 🎯 Moves, 🧠 Heuristics Used.
+
+❌ Tic-Tac-Toe – Minimax AI Highlights
+Classic 3x3 Tic-Tac-Toe board.
+
+Player vs. AI mode.
+
+Minimax with Alpha-Beta Pruning ensures unbeatable strategy.
+
+Visual highlights for winning combinations.
+
+Clean, responsive UI with reset and play-again features.
+
